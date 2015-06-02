@@ -1,7 +1,5 @@
 angular.module('book-application.templates', []);
 angular.module('book-application', [
-    'component.ajax-error',
-    'component.app-version',
-    'component.first-component',
+    'component.book-form',
     'book-application.templates'
 ]).config(function (){});
