@@ -1,7 +1,7 @@
 {
-  "name": "test-application",
+  "name": "book-application",
   "version": "0.0.0",
-  "description": "test-application for karaganda",
+  "description": "book-application for karaganda",
   "main": "gulpfile.js",
   "directories": {
     "doc": "docs",
@@ -57,6 +57,7 @@
     "gulp-ngdocs": "~0.2.10"
   },
   "dependencies": {
+    "gulp-install": "^0.4.0",
     "gulp-svn": "~1.0.6",
     "gulp-util": "^3.0.4"
   }
